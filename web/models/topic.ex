@@ -12,5 +12,4 @@ defmodule Discuss.Topic do
     |> cast(params, [:title])
     |> validate_required([:title])
   end
-
 end
